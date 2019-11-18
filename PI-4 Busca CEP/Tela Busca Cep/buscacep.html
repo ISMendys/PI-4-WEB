@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="bt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Busca CEP</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+    <body background="BACKGROUND.png">
+
+        <body id='conteudo'>
+            
+            <header id='titulo'>
+                <h1>Busque seu CEP</h1>
+            </header>
+
+            <section id='itens'>
+
+                <div id="msg">     
+                    <!-- Inicio do formulario -->
+                    <form id='requisitos' method="get" action=".">
+                    <label>CEP:
+                    <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"><br /><p>
+                    <label>Rua:
+                    <input name="rua" type="text" id="rua" size="44" /></label><br /><p>
+                    <label>Bairro:
+                    <input name="bairro" type="text" id="bairro" size="41" /></label><br/><p>
+                    <label>Cidade:
+                    <input name="cidade" type="text" id="cidade" size="40" /></label><br/><p>
+                    <label>Estado:
+                    <input name="uf" type="text" id="uf" size="10" /></label><br/><p>
+                    </form>
+                    <form class='btn'>
+                        <input id="btn" type="button"  name="Verificar" value="Verificar" onclick="pesquisacep()" ><p>
+                        <input id="btn" type="button"  name="" value="Long Lat" onclick="getLL()" ><p>
+                    </form>
+                </div>
+
+
+                <div id="map"></div>
+                
+            </section>
+
+        <footer>
+            <p>&copy;Isael Pereira</p>
+        </footer>
+        </body>
+    </body>
+    <script src="script.js"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKE9q48Uw5n60uYVsrKyUjO8R6nNR0inY&callback=initMap">
+    </script>
+    <script src="http://maps.google.com/maps/api/js"></script>
+
+
+</html>

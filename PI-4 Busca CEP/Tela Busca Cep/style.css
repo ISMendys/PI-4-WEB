@@ -1,0 +1,78 @@
+
+#titulo {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font: italic 25px Arial bold;
+    text-shadow: rgba(0, 0, 0, 0.63) 0 3px 0;
+}
+#itens{
+    
+    font: normal 15pt Arial;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418);
+    
+}
+form.btn{
+    text-align: center;
+}
+footer {
+    color: white;
+    text-align: center;
+    font: italic 25px;
+    
+}
+#map {
+    height: 400px;
+    width: 100%;
+  }
+  #btn {
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1215ba), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #1215ba, #65a9d7);
+    background: -moz-linear-gradient(top, #1215ba, #65a9d7);
+    background: -ms-linear-gradient(top, #1215ba, #65a9d7);
+    background: -o-linear-gradient(top, #1215ba, #65a9d7);
+    padding: 10px 20px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 20px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+    }
+    #btn:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+    }
+    #btn:active {
+    border-top-color: #f0f0f0;
+    background: #4c00ff;
+    }
+    #cep{
+        
+        font: normal 15pt Arial;
+    }
+    #uf{
+        font: normal 15pt Arial;
+    }
+    #bairro{
+        font: normal 15pt Arial;
+    }
+    #rua{
+        font: normal 15pt Arial;
+    }
+    #cidade{
+        font: normal 15pt Arial;
+    }
