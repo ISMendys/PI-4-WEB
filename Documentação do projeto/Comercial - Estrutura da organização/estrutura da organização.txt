@@ -1,0 +1,7 @@
+esse documento são das atividades separadas pela estrutura da organização 
+do proejeto:
+
+Isael:
+	criação e manutenção dos scripts e design
+Matheus:
+	documentação do projeto e requisitos

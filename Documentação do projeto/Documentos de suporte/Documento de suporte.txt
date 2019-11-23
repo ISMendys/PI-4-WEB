@@ -1,0 +1,10 @@
+este arquivo possue o contato para suporte do projeto entrar em contato
+se necessario com os envolvidos citados:
+	isael: script do projeto e design:
+		E-mail: isael_cross@hotmail.com
+		tel.: 981808404
+		github: ismendys
+
+	matheus: documentação e requisitos do projeto:
+		E-mail: matheus.neris2014@gmail.com
+		tel.: 71988258447

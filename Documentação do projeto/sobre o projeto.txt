@@ -1,0 +1,9 @@
+Esse site tem como proposito retornar o endereço baseado no cep passado pelo
+usuario.
+Em breve retornar a localização no mapa da google para gerar uma rota: ainda em 
+desenvolvimento... projeto open source no link git https://github.com/ISMendys/PI-4-WEB.git
+
+está atualmente on-line no link: http://ismendy.epizy.com/BuscaCEP/principal.html
+o repositorio está acessivel em: http://ismendy.epizy.com/
+OBS: Somente cep do brasil
+

@@ -1,0 +1,1367 @@
+{
+  "id": "396bb4f6-46ad-454d-9a84-5e31208e66f5",
+  "version": "2.0",
+  "name": "Casos de teste PI4",
+  "url": "http://ismendy.epizy.com/BuscaCEP/principal.html",
+  "tests": [{
+    "id": "cc4df0ce-41d4-475b-a32d-7f617efb766d",
+    "name": "Teste funcional",
+    "commands": [{
+      "id": "5d319354-0781-44f9-9dd2-3f408e63d178",
+      "comment": "",
+      "command": "open",
+      "target": "/BuscaCEP/principal.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f63fa8a-7aac-448a-990c-6730fe09916b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d6c2edf-0ca4-468d-af81-b9ac4f92018f",
+      "comment": "",
+      "command": "click",
+      "target": "id=lblbotoes",
+      "targets": [
+        ["id=lblbotoes", "id"],
+        ["css=#lblbotoes", "css:finder"],
+        ["xpath=//label[@id='lblbotoes']", "xpath:attributes"],
+        ["xpath=//section[@id='itens']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Busque seu CEP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29c9fc30-7ef5-45c6-b13a-26ff6d87c5a1",
+      "comment": "",
+      "command": "click",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fabfd217-aaf0-4a73-97e1-d4c16159bc80",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "40800172"
+    }, {
+      "id": "6015ceec-7f6e-466a-a2a0-f38f4d3274b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3aff1225-e4b9-4040-a47f-bf5aff60a8d2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad4ca270-6d34-4d51-ad9c-935226c20a3b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "991d893a-b615-4675-96c0-560a6ccbcc5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=voltar",
+      "targets": [
+        ["id=voltar", "id"],
+        ["css=#voltar", "css:finder"],
+        ["xpath=//div[@id='voltar']", "xpath:attributes"],
+        ["xpath=//body[@id='principal']/div", "xpath:idRelative"],
+        ["xpath=//div", "xpath:position"],
+        ["xpath=//div[contains(.,'INICIO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "05314a19-8c03-4771-9d77-e8543ea52959",
+    "name": "Teste cep invalido",
+    "commands": [{
+      "id": "82095828-b2cf-42d8-9630-cc8dae796937",
+      "comment": "",
+      "command": "open",
+      "target": "http://ismendy.epizy.com/BuscaCEP/principal.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "adee7520-1a2c-47bf-8abc-7ed7c69c9ef4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdfa6af1-756d-420d-b6fc-58ac4c133ad3",
+      "comment": "",
+      "command": "click",
+      "target": "id=lblbotoes",
+      "targets": [
+        ["id=lblbotoes", "id"],
+        ["css=#lblbotoes", "css:finder"],
+        ["xpath=//label[@id='lblbotoes']", "xpath:attributes"],
+        ["xpath=//section[@id='itens']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Busque seu CEP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b22d709a-6357-49c0-a693-05f26c4cae3c",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "4080017"
+    }, {
+      "id": "ddc033e3-f15f-488c-9d3c-a589e1c612f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e158d13-204e-4f24-8e9b-575d1a7bd423",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "[Error] CEP invalido",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "89eb8904-36d0-4082-8e82-56e375b43e08",
+    "name": "Teste cep incorreto",
+    "commands": [{
+      "id": "f25b871c-9461-4f44-9390-838affbcf187",
+      "comment": "",
+      "command": "open",
+      "target": "http://ismendy.epizy.com/BuscaCEP/principal.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c184a02-64b4-4213-b63c-4d169ce3697d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1422316e-7d9c-4cdb-bdb2-c1ce64c33be6",
+      "comment": "",
+      "command": "click",
+      "target": "id=lblbotoes",
+      "targets": [
+        ["id=lblbotoes", "id"],
+        ["css=#lblbotoes", "css:finder"],
+        ["xpath=//label[@id='lblbotoes']", "xpath:attributes"],
+        ["xpath=//section[@id='itens']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Busque seu CEP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f044786-2dfc-4684-9b5a-d66bb9b74a96",
+      "comment": "",
+      "command": "click",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0589e9f8-fb7e-49bd-b4b2-2699052cd77e",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "40900172"
+    }, {
+      "id": "2a6be100-b6b2-4691-b37a-443a6d3b89dd",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86425aa0-612a-4645-85c7-54ceaf36d60a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "264685b5-a02a-4ba7-b0de-d8f26ea2a745",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8aff262b-8cfb-420d-8585-e074d0f25371",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "CEP não encontrado.",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5c1ac8f1-0d3b-4171-9e20-57f47125509b",
+    "name": "Teste mapa google",
+    "commands": [{
+      "id": "84d7bb74-fa7c-4ba3-8ab7-3e40d13e10fd",
+      "comment": "",
+      "command": "open",
+      "target": "http://ismendy.epizy.com/BuscaCEP/principal.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70e88023-9643-41c4-8b75-22a7b5f547f1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1670d469-4eea-48dc-9859-bea9e3af40c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=lblbotoes",
+      "targets": [
+        ["id=lblbotoes", "id"],
+        ["css=#lblbotoes", "css:finder"],
+        ["xpath=//label[@id='lblbotoes']", "xpath:attributes"],
+        ["xpath=//section[@id='itens']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Busque seu CEP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74f0ccfb-b853-4a3b-a6c1-80a1a78f2eb0",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=div:nth-child(3) > div > img",
+      "targets": [
+        ["css=div:nth-child(3) > div > img", "css:finder"],
+        ["xpath=(//img[contains(@src,'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png')])[2]", "xpath:img"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]/div/div[3]/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/img", "xpath:position"]
+      ],
+      "value": "17,17.666656494140625"
+    }, {
+      "id": "5f255d4f-cc09-453f-b09e-c755466e81dd",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=div:nth-child(3) > div > img",
+      "targets": [
+        ["css=div:nth-child(3) > div > img", "css:finder"],
+        ["xpath=(//img[contains(@src,'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png')])[2]", "xpath:img"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]/div/div[3]/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/img", "xpath:position"]
+      ],
+      "value": "17,17.666656494140625"
+    }, {
+      "id": "a11ef737-e47b-4af6-b989-f76ce01a91bb",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=div:nth-child(3) > div > img",
+      "targets": [
+        ["css=div:nth-child(3) > div > img", "css:finder"],
+        ["xpath=(//img[contains(@src,'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png')])[2]", "xpath:img"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]/div/div[3]/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/img", "xpath:position"]
+      ],
+      "value": "17,17.666656494140625"
+    }, {
+      "id": "5e503fb9-4653-4272-a82d-45bdfaa0773b",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) > div > img",
+      "targets": [
+        ["css=div:nth-child(3) > div > img", "css:finder"],
+        ["xpath=(//img[contains(@src,'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png')])[2]", "xpath:img"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]/div/div[3]/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12a192ef-66e2-4dad-862b-3524234f002b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59225c43-7d2f-4f40-ac46-cfdf46df779e",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "377,172.6666717529297"
+    }, {
+      "id": "b195fc41-0b84-4efe-893c-67211a7ac695",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "377,172.6666717529297"
+    }, {
+      "id": "3f352716-4e79-4a84-89ee-859039c60e5c",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "377,172.6666717529297"
+    }, {
+      "id": "c9794f23-5e8a-492d-b85b-f46003706392",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9dcee77-73fc-45b7-95a8-097ee872e26c",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "299,175.6666717529297"
+    }, {
+      "id": "9e6c3d35-6f1c-494b-b8c9-9b597a1c6dc2",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "299,175.6666717529297"
+    }, {
+      "id": "711d3865-3ac9-4055-9540-ac85df547dc7",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "299,175.6666717529297"
+    }, {
+      "id": "a65ac521-cfd8-4613-8ad4-5174867b2dd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4528bba2-2704-4920-a570-f3c52d71e836",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "107,292.6666717529297"
+    }, {
+      "id": "7c0ed277-83d7-48ea-a14b-3e905f89b516",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "107,292.6666717529297"
+    }, {
+      "id": "1fb5b7b9-252a-4b6d-8df7-110f201722fd",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "107,292.6666717529297"
+    }, {
+      "id": "a2ee73dd-72f3-4fac-8e1e-62060731f04d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a037a66-890c-4e2a-a6a9-7442e571708e",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "264,32.666656494140625"
+    }, {
+      "id": "cbad8412-c070-4594-b0b5-ed6df5f6ac32",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "264,32.666656494140625"
+    }, {
+      "id": "de406b59-a32e-4f99-adae-be499c4cea90",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "264,32.666656494140625"
+    }, {
+      "id": "4d2975c8-7ff8-4ff3-8394-19c8abcb7e34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d0130e8-42a9-4645-b3ba-31d6378dee73",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "276,31.666675567626953"
+    }, {
+      "id": "925e0298-85d0-4bfe-b8d9-88a5f93a3ce8",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "276,31.666675567626953"
+    }, {
+      "id": "0857dbd4-9af4-404d-ba5d-a230a2c6beaf",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "276,31.666675567626953"
+    }, {
+      "id": "2b43e92c-3cb1-472f-8253-6629e8964da0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gm-style > div:nth-child(1) > div:nth-child(3)",
+      "targets": [
+        ["css=.gm-style > div:nth-child(1) > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='map']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3ed41f24-eac9-4ce4-a5f5-7d90095289f6",
+    "name": "Teste de estress",
+    "commands": [{
+      "id": "86a5ca7f-2ea9-450d-be5f-fe964b877acd",
+      "comment": "",
+      "command": "open",
+      "target": "http://ismendy.epizy.com/BuscaCEP/principal.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7699158-8e49-4566-9eba-6fbfc1393276",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "749250db-ed99-43b5-8158-d12c96d74df4",
+      "comment": "",
+      "command": "click",
+      "target": "id=lblbotoes",
+      "targets": [
+        ["id=lblbotoes", "id"],
+        ["css=#lblbotoes", "css:finder"],
+        ["xpath=//label[@id='lblbotoes']", "xpath:attributes"],
+        ["xpath=//section[@id='itens']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Busque seu CEP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6c50e7e-9dd7-4906-b9ec-297c1771ad08",
+      "comment": "",
+      "command": "click",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b463dc08-2122-456c-b5b1-b49b7cf8d763",
+      "comment": "",
+      "command": "click",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98f0b649-8ca0-422c-8966-09e48e9975e1",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "78725-012"
+    }, {
+      "id": "9053b39c-7f3c-4f6d-a9de-c2368b132a32",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "423b4664-5db9-4dd3-a1cb-a42e80dafca1",
+      "comment": "",
+      "command": "click",
+      "target": "id=requisitos",
+      "targets": [
+        ["id=requisitos", "id"],
+        ["css=#requisitos", "css:finder"],
+        ["xpath=//form[@id='requisitos']", "xpath:attributes"],
+        ["xpath=//div[@id='msg']/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54ea7ae1-9a0d-42d3-b17c-626558e4a49a",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "58036-615"
+    }, {
+      "id": "ca530001-225e-4241-a6cb-4c2b5592e96f",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "306a554d-3399-4c36-861b-141cafbb6f7d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d856e96-61cf-426d-bf9e-0221e76b8ba1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "deaec98c-469c-4876-9b58-9d0eb2edaa2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eec7f3d1-ec9f-4a9d-87f1-8027446dc59f",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "89209-503"
+    }, {
+      "id": "f5fc3926-d26c-46cb-a780-2a8ea9d111f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab6efceb-6681-4fb2-8c7c-0997162db96f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec361348-bc80-45da-bbee-a23e72a08585",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e0f87fe-24b2-45ca-9336-79f889308106",
+      "comment": "",
+      "command": "click",
+      "target": "css=#requisitos > label",
+      "targets": [
+        ["css=#requisitos > label", "css:finder"],
+        ["xpath=//form[@id='requisitos']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc4fa4a0-2abb-4f54-9176-2ecf1b22e7b6",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "78710-225"
+    }, {
+      "id": "70300456-4f3e-4cc6-99ce-d9ec27bbbdc5",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d67b5f90-9696-4f83-a56c-af65fa12d1cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4ade4f1-b95a-4abf-b01e-2fe11e4da2ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "60135-182"
+    }, {
+      "id": "ea4dac47-450e-44c3-bcd3-06df5c8d6901",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b18cf95-b73c-44d1-a80a-5b5bb0e4101f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#requisitos > label",
+      "targets": [
+        ["css=#requisitos > label", "css:finder"],
+        ["xpath=//form[@id='requisitos']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcad74d0-3986-4de3-9d08-0d142db1a714",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "64081-190"
+    }, {
+      "id": "f6330baf-b18c-4052-ad9c-4b4c80bea540",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f8b360d-6be5-4cb5-bbed-152838fa1cf3",
+      "comment": "",
+      "command": "click",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dc10910-86e5-463e-affe-af1b900973f8",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "88817-695"
+    }, {
+      "id": "fcf127a0-00d9-4d28-8c44-e21784e9ec37",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb53a751-f77e-44ea-9687-882f0794a46f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#requisitos > label",
+      "targets": [
+        ["css=#requisitos > label", "css:finder"],
+        ["xpath=//form[@id='requisitos']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0ebda9f-ddc4-4107-a7d3-cd6771723e87",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ef434c7-87a3-4736-8940-9c1d3bb70254",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "91712-390"
+    }, {
+      "id": "f2eccdd5-d43b-496c-a0a5-763c5591f2a2",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be15ab2e-2b07-4b8d-b8e4-49e98f4e4add",
+      "comment": "",
+      "command": "click",
+      "target": "id=itens",
+      "targets": [
+        ["id=itens", "id"],
+        ["css=#itens", "css:finder"],
+        ["xpath=//section[@id='itens']", "xpath:attributes"],
+        ["xpath=//body[@id='principal']/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3cf2ed9-a112-4ee2-bb59-31ef31e60a5d",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "67105-104"
+    }, {
+      "id": "fc32fe3d-7c71-44f5-a937-bd5bb5845aa2",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5117f54b-40b2-4b21-bbac-b85293d32447",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4ff5574-77d9-4ca8-9e2f-39c13cbc7ae6",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "65054-090"
+    }, {
+      "id": "78f3af2f-d1fc-4381-9fd8-376116dcdb6d",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2d581ad-8131-4e18-85ee-2288003d2a75",
+      "comment": "",
+      "command": "click",
+      "target": "css=#requisitos > label",
+      "targets": [
+        ["css=#requisitos > label", "css:finder"],
+        ["xpath=//form[@id='requisitos']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "762ea833-1797-4db7-943e-bbb6b7323146",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "59131-430"
+    }, {
+      "id": "34b93467-9071-43f3-9ad5-958d499480ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "283be19d-7ca9-42a4-bf3a-3fb8b6e3b216",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a338a5a-916b-4d15-ad58-d2dc50cf4323",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "72852-818"
+    }, {
+      "id": "0e0b5c94-d860-4dbd-af72-0765a2422817",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e8061f2-f620-432d-8ad0-db798c440b53",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "704dd6b5-057a-432f-b237-4f33ffebf131",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0ea4e10-3908-4269-bb87-8fe751fd9c1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d36e4a4a-1fcc-4f87-92cf-55f46d36ec95",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "67140-875"
+    }, {
+      "id": "6983a4d6-5b09-4caf-a971-807db1874273",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "610f888e-1412-4491-81fd-4b7eac7fba75",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "66080-040"
+    }, {
+      "id": "ef2b55e4-393c-4e74-bb1b-a9ad6bb8e72d",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbbca166-f978-401f-95f7-6bdf3843d86a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a78cfd3-36b3-4fd9-ac8c-2aebb88c9bed",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cde95ae-d9f2-4776-bebd-cdc6f90d0469",
+      "comment": "",
+      "command": "click",
+      "target": "css=#requisitos > label",
+      "targets": [
+        ["css=#requisitos > label", "css:finder"],
+        ["xpath=//form[@id='requisitos']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7328c60d-a064-4c1f-ac47-df9350edc7cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "79052-350"
+    }, {
+      "id": "36d1793f-3576-44ef-ab31-204025f41519",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["name=Verificar", "name"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//form[@id='requisitos']/label/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5f140f8b-8669-4d9a-a075-4849ea117560",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cc4df0ce-41d4-475b-a32d-7f617efb766d"]
+  }],
+  "urls": ["http://ismendy.epizy.com/", "http://ismendy.epizy.com/BuscaCEP/principal.html"],
+  "plugins": []
+}
